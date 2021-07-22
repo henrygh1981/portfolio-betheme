@@ -5822,6 +5822,13 @@ a.icon_bar_small, a.icon_bar_small span {
 	line-height: 43px;
 	font-size: 15px
 }
+a.icon_bar_tiny, a.icon_bar_tiny span {
+        width: 21px;
+        height: 21px;
+        line-height: 21px;
+        font-size: 8px
+}
+
 a.icon_bar span.t {
 	position: relative
 }
