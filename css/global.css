@@ -112,6 +112,11 @@ big, .big {
 	font-size: 110%;
 	line-height: 180%;
 }
+huge, .huge {
+	font-size: 150%;
+	line-height: 200%;
+}
+
 dt {
 	font-weight: 700;
 }
