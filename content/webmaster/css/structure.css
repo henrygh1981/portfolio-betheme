@@ -969,7 +969,7 @@ body.nice-scroll:not(.layout-boxed) {
 }
 #Filters .filters_wrapper ul li a:hover, #Filters .filters_wrapper ul li.current-cat a {
 	text-decoration: none;
-	color: #fff;
+	color: #dadada;
 }
 #Filters .filters_wrapper ul li.close a {
 	text-align: center;
