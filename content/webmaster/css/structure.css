@@ -3523,7 +3523,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 /* Grid */
 
 .portfolio_group.grid .portfolio-item {
-	width: 31.2%;
+	width: 48%;
 	margin: 0 1% 20px;
 }
 .portfolio_group.grid .portfolio-item .desc .desc-wrapper, .portfolio_group.grid .portfolio-item .desc .details-wrapper {
