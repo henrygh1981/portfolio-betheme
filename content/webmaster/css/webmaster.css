@@ -575,7 +575,7 @@ body:not(.template-slider) #Header_wrapper {
 	float: left;
 	margin-top: 10px;
 	text-align: center;
-	width: 33%
+	width: 48%
 }
 #gallery-1 img {
 	border: 2px solid #cfcfcf
@@ -584,6 +584,37 @@ body:not(.template-slider) #Header_wrapper {
 	margin-left: 0
 }
 
+#gallery-2 {
+    margin: auto
+}
+#gallery-2 .gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 48%
+}
+#gallery-2 img {
+    border: 2px solid #cfcfcf
+}
+#gallery-2 .gallery-caption {
+    margin-left: 0
+}
+
+#gallery-3 {
+    margin: auto
+}
+#gallery-3 .gallery-item {
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+    width: 48%
+}
+#gallery-3 img {
+    border: 2px solid #cfcfcf
+}
+#gallery-3 .gallery-caption {
+    margin-left: 0
+}
 /*
  |--------------------------------------------------------------------------
  |   Demo Styles
