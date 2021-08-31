@@ -28,13 +28,16 @@ $email_message .="\n\n";
 
 // Always set content-type when sending HTML email
 
-
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-Type: text/html; charset=UTF-8". "\r\n";
 $headers .= 'From: '.stripslashes($name);
 
-mail($email_it_to,$subject,$email_message,$headers);
-
+$go = mail($email_it_to,$subject,$email_message,$headers);
+if(!$go) {   
+	echo "Something went wrong.";// error
+} else {
+	echo "Message was send";// correct
+}
 
 
 ?>
